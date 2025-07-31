@@ -16,7 +16,7 @@ class LinkedList:
         return self._size
 
     def isempty(self):
-        return self._size == 0
+        return len(self._data) == 0
 
     def addlast(self, e):
         newest = _Node(e, None)
